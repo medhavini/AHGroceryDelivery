@@ -2,8 +2,8 @@
 
 from setuptools import setup
 setup(
-    name='AHDelivery'
-    packages = ['stores', 'notification'],
+    name='AHDelivery',
+    packages=['stores', 'notification'],
     entry_points={
         'console_scripts' : [
             'finddeliveryslot = stores.ah.main',
