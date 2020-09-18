@@ -21,7 +21,7 @@ Example command would be something like :
 docker run -i medhavini/AHGroceryDelivery finddeliveryslot --postcode 1234AB --twilio_sid my_twilio_sid --twilio_token my_twilio_token --my_number "+311234567" --min_date="16 apr" --max_date="15 may" --log-level info --background
 ```
 
-## Script Setup (for looking under the hood)
+## Script Setup (looking under the hood)
 
 - Register an account on Twilio. You can verify your own number for free
 - This script requires python3 & pip3 installed
