@@ -1,6 +1,6 @@
 FROM selenium/standalone-chrome:3.141.59-20200409
 
-RUN sudo apt-get update && sudo apt-get install -y python3-setuptools && sudo ap-get install gogle-chrome-stable
+RUN sudo apt-get update && sudo apt-get install -y python3-setuptools && sudo apt-get install gogle-chrome-stable
 
 RUN sudo sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
     sudo locale-gen && \

@@ -12,13 +12,13 @@ The setup requires Twilio account. If you have a paid one, good. If not, you can
 If you have docker installed on your system simply run this (ofcourse after replacing all the parameters)
 
 ```
-docker run -i rajatsharma94/quarantine:groceries finddeliveryslot --postcode <postcode> --twilio_sid <twilio sid> --twilio_token <twilio auth token> --my_number "<phone number>" --min_date="<min_date>" --max_date="<max_date>" --log-level info --background
+docker run -i medhavini/AHGroceryDelivery finddeliveryslot --postcode <postcode> --twilio_sid <twilio sid> --twilio_token <twilio auth token> --my_number "<phone number>" --min_date="<min_date>" --max_date="<max_date>" --log-level info --background
 ```
 
 Example command would be something like : 
 
 ```
-docker run -i rajatsharma94/quarantine:groceries finddeliveryslot --postcode 1234AB --twilio_sid my_twilio_sid --twilio_token my_twilio_token --my_number "+311234567" --min_date="16 apr" --max_date="15 may" --log-level info --background
+docker run -i medhavini/AHGroceryDelivery finddeliveryslot --postcode 1234AB --twilio_sid my_twilio_sid --twilio_token my_twilio_token --my_number "+311234567" --min_date="16 apr" --max_date="15 may" --log-level info --background
 ```
 
 ## Script Setup (for looking under the hood)
